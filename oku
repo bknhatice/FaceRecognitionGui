@@ -1,0 +1,14 @@
+aligndlib.py, faceRecognizer.py' nin kütüphanesi.
+
+new_aligndlib.py, face_align_recognizer.py'nin kütüphanesi.
+
+    main'de input'taki imageler face'e align edilir.
+    face'deki imageler new_aligndlib.py deki alignMain foksiyonu ile çıkan imageler output a kaydolur.
+    output/image ismini yazıp çalışır.
+********************************************************************************************************
+
+elsq.py --> resimlerin binary lerini elasticsearch e kaydeder. (bin())
+            istenen resim getirilir.(getir())
+
+gui.py --> input a girilen ismi elasticsearch te bulup getirir. binary dosyasını jpg formatına dönüştürüp
+            ekrana gösterir.

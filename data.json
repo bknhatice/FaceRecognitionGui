@@ -1,0 +1,59 @@
+{
+  "image_name": "rte_deb1",
+  "results":[
+    {"confidence1": 96, "person1": "Erdogan"},
+    {"confidence2": 96, "person2":"Bahceli"}
+  ]
+}
+PUT imagesearch/isr/4
+{
+  "image_name": "gulen",
+  "results":
+    {"confidence1": 81, "person1": "Gulen"}
+}
+PUT imagesearch/isr/5
+{
+  "image_name": "trump",
+  "results":
+    {"confidence1": 97, "person1": "Trump"}
+}
+PUT imagesearch/isr/6
+{
+  "image_name": "erdogan3",
+  "results":
+    {"confidence1": 99, "person1": "Erdogan"}
+}
+PUT imagesearch/isr/7
+{
+  "image_name": "rte_kek",
+  "results":[
+    {"confidence1": 91, "person1": "Erdogan"},
+    {"confidence2": 93, "person2": "Kilicdaroglu"}
+    ]
+}
+PUT imagesearch/isr/8
+{
+ "image_name": "kemal2",
+ "results":
+ {"confidence1":79, "name":"Kilicdaroglu"}
+}
+PUT imagesearch/isr/9
+{
+ "image_name": "barzani",
+ "results":
+ {"confidence1":86, "name":"Barzani"}
+}
+PUT imagesearch/isr/10
+{
+ "image_name": "aksener",
+ "results":
+ {"confidence1":94, "name":"MAksener"}
+}
+PUT imagesearch/isr/11
+{
+ "image_name": "tru_put1",
+ "results":[
+ {"confidence1":96, "name":"Putin"},
+ {"confidence2":94, "name":"Trump"}
+ ]
+}
